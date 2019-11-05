@@ -3,8 +3,8 @@ public class ArrayLength {
     ArrayLength array = new ArrayLength();
   //  array.printArrayLength();
     //array.printArray();
-    //array.twoDimFor();
-    array.twoDimForWithCounter();
+    array.twoDimFor();
+  //  array.twoDimForWithCounter();
   }
   /*public void printArrayLength() {
     int[] oneDim=new int[3];
@@ -24,15 +24,15 @@ public class ArrayLength {
       }
     }
   }*/
-/*  public void twoDimFor(){
+ public void twoDimFor(){
     int [][]towDim={{1,2,3},{4,5,6}};
     for(int[] dimArray:twoDim) {
       for(int data:dimArray) {
         System.out.println(data);
       }
     }
-  }*/
-  public void twoDimForWithCounter(){
+  }
+  /*public void twoDimForWithCounter(){
     int [][]twoDim={{1,2,3},{4,5,6}};
     int oneCounter=0;
     for(int[] dimArray:twoDim) {
@@ -43,5 +43,5 @@ public class ArrayLength {
         }
         oneCounter++;
     }
-  }
+  }*/
 }
